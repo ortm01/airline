@@ -1,0 +1,6 @@
+data/
+.env
+.venv/
+.idea/
+__pycache__/
+.jpynb_checkpoints/
