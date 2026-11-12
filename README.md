@@ -80,15 +80,6 @@ pip install pandas numpy scikit-learn optuna lightgbm xgboost catboost \
             sqlalchemy psycopg2-binary python-dotenv matplotlib shap plotly
 ```
 
-Если данные читаются из PostgreSQL, создайте файл `.env` рядом с ноутбуком:
-
-```
-DB_USER=...
-DB_PASSWORD=...
-```
-
-Затем откройте `airline_ml_model.ipynb` и выполните ячейки по порядку. Полный подбор для всех моделей занимает от десятков минут до нескольких часов (зависит от железа).
-
 ## Стек
 
 Python, pandas, scikit-learn, Optuna, LightGBM, XGBoost, CatBoost, SHAP.
